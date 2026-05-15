@@ -20,7 +20,7 @@ test.describe('[Happy Flow]: Login functionality', () => {
 
     });
 
-    test('TC002: Verify login Success Message', { tag: ['@positive', '@login'] }, async ({ page, loginPage }) => {
+    test('TC002: Verify login success message', { tag: ['@positive', '@login'] }, async ({ page, loginPage }) => {
 
         const successMessage = await page.textContent(selector.login.successMsg);
         await expect(successMessage).toContain('Logged In Successfully');

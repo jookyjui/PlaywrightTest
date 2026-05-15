@@ -6,7 +6,7 @@ import host from '../config/hostUrl.json' with {type: 'json'};
 import { LoginPage } from '../utils/pages/LoginPage';
 
 test.describe('[Negative Flow]: Login functionality', () => {
-    test('TC006: Login with Invalid Username and Valid Password', { tag: ['@negative', '@login'] }, async ({ page, loginPage }) => {
+    test('TC006: Verify login with invalid username and valid password', { tag: ['@negative', '@login'] }, async ({ page, loginPage }) => {
         await loginPage.testLogin(
             testdata.invalidUsername.username,
             testdata.invalidUsername.password
@@ -15,7 +15,7 @@ test.describe('[Negative Flow]: Login functionality', () => {
         await expect(invUserMsg).toContain('Your username is invalid!');
     })
 
-    test('TC007: Login with Valid Username and Invalid Password', { tag: ['@negative', '@login'] }, async ({ page, loginPage }) => {
+    test('TC007: Verify login with valid username and invalid password', { tag: ['@negative', '@login'] }, async ({ page, loginPage }) => {
         await loginPage.testLogin(
             testdata.invalidPassword.username,
             testdata.invalidPassword.password
