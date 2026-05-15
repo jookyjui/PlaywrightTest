@@ -1,0 +1,6 @@
+{
+    "login": {
+        "home": "/practice-test-login/",
+        "loggedIn": "/logged-in-successfully/"
+    }
+}

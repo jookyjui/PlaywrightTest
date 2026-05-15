@@ -1,0 +1,15 @@
+{
+	"login": { 
+				"heading": "//img[@alt='Practice Test Automation']",
+				"subhead": "//h2[text()='Test login']",
+				"usernameLabel": "//label[@for='username'",
+				"passwordLabel": "//label[@for='password'",
+				"usernameInp": "//input[@id='username']",
+				"passwordInp": "//input[@id='password']",
+				"submitBtn": "//button[@id='submit']",
+				"successMsg": "//h1[@class='post-title']",
+				"invalidMsg": "//div[@id='error']",
+				"descriptionMsg": "//strong",
+				"logoutBtn": "//a[text()='Log out']"
+    }
+}
