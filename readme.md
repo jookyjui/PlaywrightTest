@@ -43,6 +43,8 @@ project-root/
 ├── utils/
 │   └── fixtures/
 │       └── loginFixtures.js
+│   └──pages/
+│       └── LoginPage.js
 │
 ├── data/
 │   └── testdata.json
@@ -50,6 +52,7 @@ project-root/
 ├── playwright-report/
 ├── test-results/
 │
+├── pageSelectors.json
 ├── playwright.config.js
 ├── package.json
 └── README.md
